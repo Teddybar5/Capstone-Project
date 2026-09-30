@@ -1,0 +1,1088 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16235 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-figgy" at "2026-09-30T02:40:14.448911Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T02:40:14Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/figgy/Downloads/Art/Unity/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52972
+-licensingIpc
+LicenseClient-figgy
+-force-d3d12
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/figgy/Downloads/Art/Unity/My project
+C:/Users/figgy/Downloads/Art/Unity/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [19788]  Target information:
+
+Player connection [19788]  * "[IP] 10.18.107.144 [Port] 0 [Flags] 2 [Guid] 1279451434 [EditorId] 1279451434 [Version] 1048832 [Id] WindowsEditor(7,FiggyPuter) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 24.29 ms, found 10 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/figgy/Downloads/Art/Unity/My project/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25e2)
+    Vendor:          NVIDIA
+    VRAM:            3964 MB
+    App VRAM Budget: 3369 MB
+    Driver:          32.0.15.7628
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002016 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-figgy"
+[Licensing::IpcConnector] LicenseClient-figgy channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-figgy-6000.4.0" at "2026-09-30T02:40:15.928409Z"
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.579 seconds
+Domain Reload Profiling: 1194ms
+	BeginReloadAssembly (179ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (175ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (269ms)
+				TypeCache.ScanAssembly (250ms)
+	FinalizeReload (582ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (144ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              4b7b9fdd256848ed9afe33ac584d00ff
+  Correlation Id:          bb375f38a1b5af21af29727d52736cef
+  External correlation Id: 1209652770694524721
+  Machine Id:              A3P9ouOmxVmXfOD8CyqiFiz+0dU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-figgy-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 1.49s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-figgy-6000.4.0-notifications" at "2026-09-30T02:40:17.4238369Z"
+[Licensing::Module] Licensing Background thread has ended after 2.98s
+[Licensing::Module] Licensing is initialized (took 0.11s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 1375443591030-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 8.06 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXRPackageSettings.asset
+Asset Pipeline Refresh (id=0cce73409f30bb14fb58e6ecde4837fb): Total: 0.004 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Refresh completed but there are assets queued up for importing. Check for code that modifies assets which gets called after OnPostProcessAllAssets. Additional details in Log file
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+Assets queued for import after Refresh completed:
+	Assets/XR/Settings/OpenXRPackageSettings.asset
+Asset Pipeline Refresh (id=93e0c3ff68e0fc24e98351ff623db2bd): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Assertion failed on expression: 'm_Ptr'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.GUID)
+UnityEditor.AssetDatabase:SaveAssetIfDirty (UnityEngine.Object)
+UnityEditor.XR.OpenXR.Features.FeatureHelpersInternal:GetAllFeatureInfo (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:323)
+UnityEditor.XR.OpenXR.Features.FeatureHelpers:RefreshFeatures (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs:30)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:AddOpenXRValidationRules () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:148)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:UpdateOpenXRProjectValidation () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:67)
+UnityEditor.XR.OpenXR.OpenXRProjectValidationRulesSetup:OpenXRProjectValidationCheck () (at ./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/OpenXRProjectValidationRulesSetup.cs:43)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[./Library/PackageCache/com.unity.xr.openxr@58837b2992e0/Editor/FeatureSupport/FeatureHelpers.cs line 323]
+
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.796 seconds
+Domain Reload Profiling: 3164ms
+	BeginReloadAssembly (372ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (132ms)
+	LoadAllAssembliesAndSetupDomain (784ms)
+		LoadAssemblies (479ms)
+		AnalyzeDomain (432ms)
+			TypeCache.Refresh (291ms)
+				TypeCache.ScanAssembly (262ms)
+			BuildScriptInfoCaches (116ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1797ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (213ms)
+			ProcessInitializeOnLoadAttributes (897ms)
+			ProcessInitializeOnLoadMethodAttributes (437ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 7.12 ms, found 10 plugins.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6292 unused Assets / (9.3 MB). Loaded Objects now: 7244.
+Memory consumption went from 163.6 MB to 154.3 MB.
+Total: 23.226700 ms (FindLiveObjects: 0.885000 ms CreateObjectMapping: 0.777200 ms MarkObjects: 16.141100 ms  DeleteObjects: 5.420400 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 8.31 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.424 seconds
+Domain Reload Profiling: 2467ms
+	BeginReloadAssembly (334ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (552ms)
+		LoadAssemblies (414ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1425ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (214ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 10.76 ms, found 10 plugins.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6419 unused Assets / (9.8 MB). Loaded Objects now: 7258.
+Memory consumption went from 173.8 MB to 164.0 MB.
+Total: 29.141200 ms (FindLiveObjects: 1.019600 ms CreateObjectMapping: 1.711300 ms MarkObjects: 20.416300 ms  DeleteObjects: 5.991600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 952.524590 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  importAddress: Guid(b6d8050cecbe75e4c8b3445d5ccd33ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(b6d8050cecbe75e4c8b3445d5ccd33ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd1c02b59e83063e8586a39feab9104a8') in 0.050665 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c2cc867f6b79d263cc3b182d25b32ce DependenciesID=d40c0d800b0f99aed621432e2e089b93 StaticDependenciesID=12b6234ea95b37910d5f35f161142b37 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.055032 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  importAddress: Guid(b6d8050cecbe75e4c8b3445d5ccd33ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(b6d8050cecbe75e4c8b3445d5ccd33ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3f85996f6cfb3f30e0a5c7260e72aef0') in 0.135365 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b8d4c76c18e25776fef47342f8e9ddb DependenciesID=f697251b75369a246d39b2936c089fed StaticDependenciesID=566affa2036cb91bdac4338525b67c6f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  importAddress: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8d1076df438bb812175c334171ffb92f') in 0.0297242 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=631490eb2ac487bc513d074e1f7b0c7a DependenciesID=d9db5375602675c926a97c787abe8792 StaticDependenciesID=02f2f145754d21c99257be40712f4a63 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/VRTemplateAssets/Scripts/XRKnob.cs
+  importAddress: Guid(e888dc0064d84d041818fa202b52d6be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Scripts/XRKnob.cs using Guid(e888dc0064d84d041818fa202b52d6be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '768f03a631c638f8013a1f747f7dc8bc') in 0.0270122 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec85b468ea273b70afb210ac9853caaa DependenciesID=fa1e4daa03ae2fceed33bb018f4ff22c StaticDependenciesID=b26a2fa1172c5d69dae3b4a345e3f2ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  importAddress: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '011e86f519364149cf99c87f272af79a') in 0.0734007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65f67ba3c8849925440456e1a8813ab4 DependenciesID=035077e396e9afcd1945c31a24a3728b StaticDependenciesID=8d7b10ba804405d2fb9a467f6d8c5b4f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/VRTemplateAssets/Scripts/Callout.cs
+  importAddress: Guid(16809ed3baa3d2341b75ec4c0aa874d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Scripts/Callout.cs using Guid(16809ed3baa3d2341b75ec4c0aa874d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b8d2d51bb8c60a66b9084e9b8be8f4c0') in 0.0143445 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b113547ca28f54cc35d5dee658cd73b DependenciesID=95020eb57934d9fb8e0586f1c1b1d4ab StaticDependenciesID=6f84ba23b3c17e6c120d22679d637cc0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  importAddress: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ee4154b7e99426cb28ff7150313632ae') in 0.0173362 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5342eee2602f94a2a7e6b2bd4666c3f6 DependenciesID=fdacfda39366ab1b6fa3f40c20a9a1c8 StaticDependenciesID=4be9fe2bc8c8a5e12a808b7d050f93d3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat
+  importAddress: Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/Anchor Base.mat using Guid(19fd09f1fd9347644a27778b73938d3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91c2abc27bfca518c706fff961150e69') in 0.0516152 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c9e512d07176f1161589cd4e54530f8 DependenciesID=7bca7029631d211ff94a0c89fa8554e6 StaticDependenciesID=35de878d2403402f5e6d6024846044f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/VRTemplateAssets/Videos/OnboardingVideoVRT.webm
+  importAddress: Guid(597e3ae2e01aed1488c14e4b05610134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Videos/OnboardingVideoVRT.webm using Guid(597e3ae2e01aed1488c14e4b05610134) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '27db285bb193c82d109af4fba56a0fe6') in 0.0295822 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d088162ce6cb3cb27cc260d24b4968ac DependenciesID=7c9b2b816e504b69a00ec9ad56a186df StaticDependenciesID=e529b624f173197c2d4073b60ce44945 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Themes/AnchorAffordanceTheme.asset
+  importAddress: Guid(0b1260e07d3cf9b4eb80ff2e299d0bbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Themes/AnchorAffordanceTheme.asset using Guid(0b1260e07d3cf9b4eb80ff2e299d0bbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '44fe8a9dbd6ed4c23979257df9a14714') in 0.0486917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b13e1931cd78138a9a4d359589095c4 DependenciesID=1bfeb7dc7f3d69eafed380c8ee3ba11f StaticDependenciesID=8627dc6517aea425ca1a1b046c0c58c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/VRTemplateAssets/Materials/Anchor Materials/White_Mixed_AO.png
+  importAddress: Guid(61c3552c05bd1b842a62ef7c70a99944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/White_Mixed_AO.png using Guid(61c3552c05bd1b842a62ef7c70a99944) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd65ba4b1b9506581eabe3ac74f2569b9') in 0.1519745 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bea964e82ade5c351063b074bbd4da6 DependenciesID=d751b5d9726dce0eb0ea730f9b28dd2b StaticDependenciesID=695418487f4afffa3161e6ddf147c3c7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/VRTemplateAssets/Materials/Controller/Controller.mat
+  importAddress: Guid(ed99ca2a07c091541937eaa1d1225edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Controller/Controller.mat using Guid(ed99ca2a07c091541937eaa1d1225edf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e443939f85c093c4d5cd4fdbb36b508c') in 0.0199797 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=067a01066be275d6d52332e176cf11aa DependenciesID=ad21aadea8c47d05890c12eef59e677a StaticDependenciesID=7cc2300ed919a5be26cea9c862dea30d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/VRTemplateAssets/Themes/EdgeColorAffordanceTheme.asset
+  importAddress: Guid(3f64ff74c0b83314ba0d51fd6312625b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Themes/EdgeColorAffordanceTheme.asset using Guid(3f64ff74c0b83314ba0d51fd6312625b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55e4b14b006c670375b4dc0b5877c5be') in 0.0218111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=997ec027f2391572e8f84ffbf3e77fcf DependenciesID=8ba73ef3cec271f86c90b78c3c6240fa StaticDependenciesID=151a02a1762fc3eb29bc63279c5e9612 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/VRTutorialContainer.asset
+  importAddress: Guid(66a752886585f42d5b39f6f643d399f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Tutorial/VRTutorialContainer.asset using Guid(66a752886585f42d5b39f6f643d399f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e156b249a5fff11ebe015b8217781bff') in 0.0396609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c75d2a6a08ab61b7063dfb3d9a384a1e DependenciesID=8281205f5b04c25478bb9469c0ce75fd StaticDependenciesID=cc95acaef7f1d8047933035c8781d271 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  importAddress: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0c356c5e049745194a31762b6e87dd61') in 0.0143896 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc5a8129910d5c2967bee4346e2c7ee5 DependenciesID=d8bf32c9fa39ab945d5c90b830d0ff41 StaticDependenciesID=ab070b6b75eb729a41727b84a827f49d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  importAddress: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd619102cebdb006fd0caa934b861ae8f') in 0.0161311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0770cf0cd4d8a218d00e249310acb58c DependenciesID=dba8babbb889a01ab1b10b9516bbd1c6 StaticDependenciesID=0cd9ea97f68392fe6cbce5de52c408ad 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset
+  importAddress: Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF NoBackfaceCulling.asset using Guid(fbb7c6a04be6d8341934b839f24b42e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6feff7f108ddf805a3fe5f05bf89c95c') in 0.0714232 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c96da69af4cd0e31758ee2179d18abd6 DependenciesID=660fd06c53c14eedff1d55d0084e94bb StaticDependenciesID=e54a7a671cc976599c6ad6eca327f3a7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png
+  importAddress: Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Frosted_Glass_Pattern_AlbedoTransparency.png using Guid(ec39cf1992b67944dbbaeb7f183de318) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2284d591eedb518e17db76061729543d') in 0.0289707 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1e8c4b96593c41dbe48755a347e43af DependenciesID=6e0957965046df782e59e7861af5ca71 StaticDependenciesID=37b3fdc41b28b995ce6d95166bd02422 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  importAddress: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e7193f509cb391a209bd4fd1fc118457') in 0.0180309 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=671f9f3da75348450ba3b6151eb33d4b DependenciesID=cfd80509d6ef5a874d9ac4a7e82067ba StaticDependenciesID=8fb9495c76aeb6809f5b996ebfc0882c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset
+  importAddress: Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Tutorial/VRTutorialWelcomePage.asset using Guid(3bf5c60804f704e11826afa05a7e2152) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '13731de4547a58f0d6f99ee7773da2b4') in 0.0293554 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2093d5c1ff5cee116c97458af615ac7c DependenciesID=a92a34de74c6254affb9b2a6f025cd16 StaticDependenciesID=986fcd6462654a8d7d95cc22441cb216 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr
+  importAddress: Guid(a8efa23c6f03b7d449b0cf4aa8e6a06d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_light.exr using Guid(a8efa23c6f03b7d449b0cf4aa8e6a06d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '09eecc9195a69b877bbadccd09b78665') in 0.0237287 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22d1e636c9acef78f6a8430956856d44 DependenciesID=761e5f1bc4949b58636083279efe4ce0 StaticDependenciesID=4ce651c60072d780b3af2b4040431cfc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  importAddress: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8d7442c211f22429e00e83aad90acb2e') in 0.0151859 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccb906fe67510a5b2edeb1b35592140e DependenciesID=b4b57beeb4264a473032fc54487d3946 StaticDependenciesID=dda605278c247b9c3f7e62e1f27042f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Metallic.png
+  importAddress: Guid(29476f995aeec6243b4aa5032ecf7dd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Metallic.png using Guid(29476f995aeec6243b4aa5032ecf7dd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50d93e90199731d6c5fe63955bfa940b') in 0.0232468 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a498850b47ca52aaf558513431c40bfd DependenciesID=c477221b592b61b8e06e22d8c1300160 StaticDependenciesID=9a6c76e126b4178ec3d6acff68f2831f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Height.png
+  importAddress: Guid(8002692e17ddbbf4d89c025c4679de37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Height.png using Guid(8002692e17ddbbf4d89c025c4679de37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '20904fa5fecbb5aaae5e14fb33e68e52') in 0.0265837 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c83c2e96fbb7645873da4a084a8caa6 DependenciesID=212f7bc034ed23a5581ab6c1c6f5b930 StaticDependenciesID=c117dc4ef9fcb31ad80de513a89d4077 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall2_Base_color.png
+  importAddress: Guid(9d65b1540bd55dc4ab02643e09524306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall2_Base_color.png using Guid(9d65b1540bd55dc4ab02643e09524306) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '53931cc3519516a33b4aedbe3106035e') in 0.0254075 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1282ddf6445dc180be16183d6365441a DependenciesID=0cf1fb4d07506f116f324152e110b7f7 StaticDependenciesID=e1ff209ad2479bd0ad343716b0b9e4be 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat
+  importAddress: Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Material.mat using Guid(69cb2ba794a087b4abdf1b00110f8c3b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '736d7ca559ed5ee9c0485da3fd3c02d0') in 0.0250448 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5e57d8c6b3aec8a49dff363d21d34ac DependenciesID=1898ea3dd47a8306c700c85eeea4f3ef StaticDependenciesID=e351e14ec3a5d070b1fde63392bc0548 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  importAddress: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '80d81534f418ada7edccd772f5dfcc57') in 0.0204963 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ae760a02c0dd3fa90e039931c443f4e DependenciesID=f825658a74829254c0f2c0629933d5bc StaticDependenciesID=fc7b77840337b8921620e800bb6e7ccb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VRTemplateAssets/Audio/Button_22_click.wav
+  importAddress: Guid(d14b106713a74b448bcab90869f1706e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Audio/Button_22_click.wav using Guid(d14b106713a74b448bcab90869f1706e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc997f9ffaea0936bd4b8eeb50e44425') in 0.0285834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64b561d3ba709adfc25665e2731fd49d DependenciesID=2dc3c27bad930089b722fd2ba0d1e523 StaticDependenciesID=ba7c8730309cdc5d94b1b81da500a4aa 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall_Normal_OpenGL.png
+  importAddress: Guid(6b3a9ec2867d0ad40ab1b8aae579267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall_Normal_OpenGL.png using Guid(6b3a9ec2867d0ad40ab1b8aae579267a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4f944c1d93aa5cc6d95be5259ca45620') in 0.0244055 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a21dddad5c4b8aeb9c2adf907b2c54e DependenciesID=2e9bef9a579fff6bf0755aaa94e79fa8 StaticDependenciesID=57393d8bff954848438aeecace4640a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/wall_Height.png
+  importAddress: Guid(b2766e330f67bc74b90720c501d9fe01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/wall_Height.png using Guid(b2766e330f67bc74b90720c501d9fe01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '413dce25420e314033c3f9f62f5abfb5') in 0.0254807 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f094e2fc095f1de720b16393df3b79b DependenciesID=46d2c929527a821bc8b63a885e807a2c StaticDependenciesID=371aa288d74a77f51606e1eafa5f9d3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VRTemplateAssets/Scripts/VideoTimeScrubControl.cs
+  importAddress: Guid(6ca75f292f7449044807f6ba9e6f954c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Scripts/VideoTimeScrubControl.cs using Guid(6ca75f292f7449044807f6ba9e6f954c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2b82e072e80d43037b397680f55846e') in 0.0152 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84c07c4a3b6ba12a63ab4f253dbe5a6d DependenciesID=bb0630a460e78475cc921b9117077020 StaticDependenciesID=430efe17b0e09482dcbbd0e22421a1b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/VRTemplateAssets/Materials/Anchor Materials/Blue Anchor Arrow.mat
+  importAddress: Guid(e42270a11c28f4744b73a18278e4ef33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Anchor Materials/Blue Anchor Arrow.mat using Guid(e42270a11c28f4744b73a18278e4ef33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '98228bcf3df8b5214295685cbea471dd') in 0.0184897 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b979eeb1bab5a947befe065b6fb913d DependenciesID=c2a56963193d3b0801bec4705af55b9e StaticDependenciesID=8131fa46c4f18ab383313eaa7ac0905c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/VRTemplateAssets/Materials/Environment/Glass.mat
+  importAddress: Guid(9c52a7e85c986c2429f4638c6756501c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Environment/Glass.mat using Guid(9c52a7e85c986c2429f4638c6756501c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8745ebb27701f2bf70fd5bce62011b6a') in 0.0241316 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68376c45e9a9b88561547cb1ae9d03de DependenciesID=177902bd2307ca1bfafb090f939ed75e StaticDependenciesID=5bfa16946a770a13b3ef0fef2ae3746f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  importAddress: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b9c2795d8a39ebe4533dbf33a90b1f4b') in 0.0339496 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c423b61fe634ce6a43152bd0ff8e4621 DependenciesID=a50d6a7860a8b6dbb37eef200024da51 StaticDependenciesID=88019135da2da4fcd85cec6acfa02a85 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/VRTemplateAssets/Materials/Locomotion/Standard White.mat
+  importAddress: Guid(6691c89fc6fbbb44cb5af52391da7129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Locomotion/Standard White.mat using Guid(6691c89fc6fbbb44cb5af52391da7129) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8ea4ca1623332602269a76c63264a410') in 0.0172321 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fd6754ee42019fe0411766010ed6ba3 DependenciesID=6f9b6d48cbbe606060b6f0f197ff8a6c StaticDependenciesID=eaf10b28de5e2471a28ac723eb346280 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png
+  importAddress: Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Materials/Primitive/fabric_Normal_OpenGL.png using Guid(400b852fe920b6f4c88997509431791a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '72b96c45583b60138df1523dc7cfbced') in 0.0192018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0532961d3d8a969dd5e78fc3e8991526 DependenciesID=95ea903466d96d1cd13f53885470aa36 StaticDependenciesID=30519bbf43d555408d0eb37809810a34 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  importAddress: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b7bef3d459a593d4be8411552c3b8d6a') in 0.0365587 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ba3619a51aa3114850c8614475cf2aa DependenciesID=afc5da04fdbbaec7384850431f6f9974 StaticDependenciesID=2e70c7206d9e4ef7fea767e8a8a682a4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs
+  importAddress: Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VRTemplateAssets/Scripts/CalloutGazeController.cs using Guid(84f6509f3c7fa7b4899c9c767f49e622) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'dc9d0d468b5b355296601771a6f84c0a') in 0.0114298 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1815cc21803adccda9076bf19280a6c DependenciesID=66c2cee88138b255c602bc90599ea9fb StaticDependenciesID=ec29c81fc23d51cc205454dfa4968d6a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset
+  importAddress: Guid(69f808f56eccd5b4e9be73624ac3b2cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset using Guid(69f808f56eccd5b4e9be73624ac3b2cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b078a13aa3647a618037f22c738c3a21') in 0.0319792 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=59a338d0beb1417e809c8e9f8821bb8d DependenciesID=1b55f037f4979a17432d134f0cbee5bc StaticDependenciesID=299f2af21af94f8aa3c1d95a7cac0743 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 9.53 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.491 seconds
+Domain Reload Profiling: 3499ms
+	BeginReloadAssembly (1316ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (1087ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (550ms)
+		LoadAssemblies (410ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (226ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1491ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (219ms)
+			ProcessInitializeOnLoadAttributes (783ms)
+			ProcessInitializeOnLoadMethodAttributes (184ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.79 ms, found 10 plugins.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6421 unused Assets / (9.7 MB). Loaded Objects now: 7264.
+Memory consumption went from 173.9 MB to 164.2 MB.
+Total: 23.275200 ms (FindLiveObjects: 1.152700 ms CreateObjectMapping: 0.901300 ms MarkObjects: 15.000500 ms  DeleteObjects: 6.218500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Performance.Profile-Analyzer.EditorTests.dll at Library/ScriptAssemblies/Unity.Performance.Profile-Analyzer.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TestTools.CodeCoverage.Editor.Compatibility.dll at Library/ScriptAssemblies/Unity.TestTools.CodeCoverage.Editor.Compatibility.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.AndroidXROpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.AndroidXROpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.InternalUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARFoundation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARFoundation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.ARSubsystems.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.ARSubsystems.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CompositionLayers.Tests.dll at Library/ScriptAssemblies/Unity.XR.CompositionLayers.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.CoreUtils.Tests.dll at Library/ScriptAssemblies/Unity.XR.CoreUtils.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Hands.Tests.dll at Library/ScriptAssemblies/Unity.XR.Hands.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Interaction.Toolkit.Tests.dll at Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.EditorTests.dll at Library/ScriptAssemblies/Unity.XR.Management.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.TestPackage.Editor.dll at Library/ScriptAssemblies/Unity.XR.Management.TestPackage.Editor.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Management.Tests.Standalone.dll at Library/ScriptAssemblies/Unity.XR.Management.Tests.Standalone.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.CodeSamples.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.CodeSamples.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.MetaOpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.MetaOpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.OpenXR.Ubuntu.Tests.dll at Library/ScriptAssemblies/Unity.XR.OpenXR.Ubuntu.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.Simulation.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.XR.Simulation.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestSupport.dll at Library/ScriptAssemblies/Unity.XR.TestSupport.dll not valid. Loading of assembly skipped.
+Assembly Unity.XR.TestTooling.Editor.Tests.dll at Library/ScriptAssemblies/Unity.XR.TestTooling.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.XR.LegacyInputHelpers.Tests.dll at Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.SpatialTracking.Tests.dll at Library/ScriptAssemblies/UnityEngine.SpatialTracking.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll at Library/ScriptAssemblies/UnityEngine.XR.OpenXR.CodeSamples.Editor.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 6.73 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.238 seconds
+Domain Reload Profiling: 3081ms
+	BeginReloadAssembly (1259ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (1070ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (462ms)
+		LoadAssemblies (340ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (187ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1239ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (175ms)
+			ProcessInitializeOnLoadAttributes (665ms)
+			ProcessInitializeOnLoadMethodAttributes (173ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.30 ms, found 10 plugins.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6419 unused Assets / (10.4 MB). Loaded Objects now: 7266.
+Memory consumption went from 177.3 MB to 167.0 MB.
+Total: 19.816900 ms (FindLiveObjects: 0.746600 ms CreateObjectMapping: 0.678900 ms MarkObjects: 12.446800 ms  DeleteObjects: 5.943000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
