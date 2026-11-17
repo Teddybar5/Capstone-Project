@@ -16206,13 +16206,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -1.13
       objectReference: {fileID: 0}
+    - target: {fileID: -775356033602400462, guid: 95210e4d1f5337643a6f5cb5323885d9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 625750cd05754d740b4a9ac4a4d0fa7d, type: 2}
+    - target: {fileID: -466329591000292508, guid: 95210e4d1f5337643a6f5cb5323885d9, type: 3}
+      propertyPath: m_Name
+      value: railing
+      objectReference: {fileID: 0}
     - target: {fileID: -466329591000292508, guid: 95210e4d1f5337643a6f5cb5323885d9, type: 3}
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 95210e4d1f5337643a6f5cb5323885d9, type: 3}
       propertyPath: m_Name
-      value: capstoneGCfin (1)
+      value: GrandCanyon
       objectReference: {fileID: 0}
     - target: {fileID: 4677961787550597184, guid: 95210e4d1f5337643a6f5cb5323885d9, type: 3}
       propertyPath: m_LocalPosition.x
